@@ -1,0 +1,41 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color:lightcyan;
+    padding: 20px;
+
+}
+
+.card{
+    font-family: 'Gulzar', serif;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-family: 'Scheherazade New', serif;
+    font-family: 'Vazirmatn', sans-serif;
+    background-color:lightblue;
+    width: 300px;
+    height: 510px;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.img-card-container{
+    display: flex;
+    justify-content: center;
+}
+
+.img-card{
+    width: 90%;
+    height: 200px;
+}
+.text-card{
+    text-align: center;
+}
+.text-card-2{
+    direction: rtl;
+    text-align:center;
+    font-size: 18px;
+    padding: 10px;
+}
